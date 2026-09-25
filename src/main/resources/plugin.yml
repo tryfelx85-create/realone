@@ -1,0 +1,17 @@
+name: ArenaPlugin
+version: 1.0.0
+main: com.arena.spawn.ArenaPlugin
+api-version: 1.21
+author: YourName
+description: PvP tournament arena plugin
+commands:
+  spectate:
+    description: Enter spectator mode
+    usage: /spectate
+  stopspectating:
+    description: Leave spectator mode and return to the arena
+    usage: /stopspectating
+permissions:
+  arena.anticheat.alerts:
+    description: Receive anti-cheat staff alerts in chat
+    default: op
